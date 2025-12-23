@@ -8,6 +8,6 @@ In the case of any issues with dyad, please check/report at https://github.com/d
 
 > NOTE: Because right now our application to be part of Apple Developer Program is in progress, our version is will be blocked by macOS's Gatekeeper. To resolve this, you need remove the `quarantine attribute` from the app via:
 > ```bash
-> $ xattr -dr com.apple.quarantine /path/to/Dyad\ with\ Atheon.app
+> $ xattr -dr com.apple.quarantine /path/to/dyad.app
 > ```
 > This is a one time operation.
